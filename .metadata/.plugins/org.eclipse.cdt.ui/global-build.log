@@ -1,0 +1,158 @@
+21:56:29 **** Build of configuration Debug for project lab2-1 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\MinGW\bin]
+22:19:56 **** Rebuild of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000];
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[10000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+Info: Nothing to build for lab2-1
+22:21:46 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000];
+          ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:21:57 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000];
+          ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:42:18 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:12: error: storage size of 'a' isn't known
+      int a[];
+            ^
+22:42:43 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000];
+          ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:43:26 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:12: error: storage size of 'a' isn't known
+      int a[];
+            ^
+22:43:55 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:23:30: error: variable-sized object 'a' may not be initialized
+              int a[j] = rand();
+                              ^
+..\src\lab2-1.cpp:23:18: warning: unused variable 'a' [-Wunused-variable]
+              int a[j] = rand();
+                  ^
+22:45:48 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000]={0};
+          ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+Info: Nothing to build for lab2-1
+22:47:02 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000]={0};
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[10000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:47:55 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000]={0};
+          ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:48:12 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000]={0};
+          ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:50:46 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[10000]={0};
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[1000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:50:59 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[1000]={0};
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[1000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+22:51:19 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[1000]={0};
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[1000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+Info: Nothing to build for lab2-1
+03:48:22 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[1000]={0};
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[1000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
+04:47:23 **** Incremental Build of configuration Debug for project lab2-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2-1.o" "..\\src\\lab2-1.cpp" 
+..\src\lab2-1.cpp: In function 'int main()':
+..\src\lab2-1.cpp:22:10: warning: unused variable 'a' [-Wunused-variable]
+      int a[1000]={0};
+          ^
+..\src\lab2-1.cpp:33:14: warning: unused variable 'a' [-Wunused-variable]
+         int *a = new int[1000];
+              ^
+g++ -o lab2-1.exe "src\\lab2-1.o" 
